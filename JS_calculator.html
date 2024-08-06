@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head><title>Example</title>
+<meta charset="utf-8">
+   <script src="assets/scripts/JavaScript/jquery.min.js">
+   </script>
+    <script>
+    function check1()
+    {
+        var a=parseInt(document.forms[0].elements[0].value);
+        var b=parseInt(document.forms[0].elements[1].value);
+        document.forms[0].elements[2].value=a+b;
+    }
+</script>
+     <script>
+    function check2()
+    {
+        var a=parseInt(document.forms[0].elements[0].value);
+        var b=parseInt(document.forms[0].elements[1].value);
+        document.forms[0].elements[2].value=a-b;
+    }
+</script>
+     <script>
+    function check3()
+    {
+        var a=parseInt(document.forms[0].elements[0].value);
+        var b=parseInt(document.forms[0].elements[1].value);
+        document.forms[0].elements[2].value=a*b;
+    }
+</script>
+     <script>
+    function check4()
+    {
+        var a=parseInt(document.forms[0].elements[0].value);
+        var b=parseInt(document.forms[0].elements[1].value);
+        document.forms[0].elements[2].value=a/b;
+    }
+</script>
+     <script>
+    function check5()
+    {
+        var a=parseInt(document.forms[0].elements[0].value);
+        var b=parseInt(document.forms[0].elements[1].value);
+        document.forms[0].elements[2].value=a%b;
+    }
+</script>
+    <style>
+        input{
+            font-size: 30px;
+            width:90px;
+            text-align: center;
+        }
+    </style>
+    </head>
+<body>
+    <h2><u>JS Calculator</u></h2>
+    <form>
+        <h3>Enter Your First Number:<input type=text/></h3>
+        <h3>Enter Your Second Number:<input type=text/></h3>
+        <h3>Result:<input type=text/></h3><br>
+
+        <input type="button" value="+" OnClick="check1()">
+         <input type="button" value="-" OnClick="check2()">
+         <input type="button" value="x" OnClick="check3()">
+         <input type="button" value="/" OnClick="check4()">
+         <input type="button" value="%" OnClick="check5()">
+    </form>
+    </body>
+</html>     
+
+

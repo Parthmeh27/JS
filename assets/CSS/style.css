@@ -1,0 +1,52 @@
+#MainContainer
+{
+    background: yellow;
+    width: 1100px;
+    margin: auto;
+}
+#Header
+{
+    background: red;
+    height: 200px;
+    color: white;
+}
+#Menu
+{
+    background: cyan;
+    height:25px;
+    padding: 20px;
+  
+}
+#Menu a
+{
+    padding:20px;
+    color:red;
+      text-decoration: none;
+}
+#Menu a:hover
+{
+    padding:20px;
+    color:yellow;
+    text-decoration: underline;
+}
+#SideBar
+{
+    height: 500px;
+    background: lime;
+    width:250px;
+    float:right;
+}
+#ContentPlace
+{
+    height:500px;
+    width: 850px;
+    background: green;
+    
+}
+#Footer
+{
+    background: black;
+    height: 50px;
+    color:yellow;
+    text-align: center;
+}

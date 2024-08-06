@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="assets/scripts/JavaScript/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("img").click(function(){
+    $("iframe").toggle();
+  });
+});
+</script>
+
+    <style>
+        div{
+            background-color:coral;
+            height: 580px;
+        }
+        img{
+            border: 2px solid black;
+            background-color:#86a0b1;
+        }
+        iframe{
+            margin-left: 20px;
+        }
+        #border-box{
+            
+            width:815px;
+            height: 250px;
+            margin-left: 200px;
+            margin-top: 30px;
+            background-color:chocolate;
+           
+        }
+        img{
+            margin: 5px;
+        }
+    </style>
+    </head>
+    <body><div>
+        
+        <a href="audi_models.html" target="f1">
+        <img src="assets/images/audi_logo.webp" height="200" width="200" style="margin-left: 290px" id="img1"></a>
+        
+        <a href="mercedes_models.html" target="f1">
+            <img src="assets/images/mercedes_logo.webp" height="200" width="200" id="img2"></a>
+        
+         <a href="jaguar_models.html" target="f1">
+        <img src="assets/images/Jaguar_Logo.webp" height="200" width="200" id="img3"></a>
+        <div id="border-box">
+            <iframe name="f1" height="300" width="800" frameborder=0></iframe></div></div>
+    </body>
+</html>
